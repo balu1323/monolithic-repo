@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "balu1323.TF-Ansible.project.bucket"
+  bucket = "balu1323.tf-ansible.project.bucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
